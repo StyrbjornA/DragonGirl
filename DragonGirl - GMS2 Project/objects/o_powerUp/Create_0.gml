@@ -1,0 +1,10 @@
+xOffset = 0;
+facing = 1;
+dirChangeCooldown = 0;
+movement = 1;
+moveDist = 0;
+detected = false;
+decidedDirection = 0;
+initSpeed = 15;
+SetupActive();
+SetupCollider();

@@ -1,4 +1,8 @@
-shader_set(shd_crt);
 
+if (crt){
+	shader_set(shd_crt);
+}
 draw_surface(application_surface,0,0);
-shader_reset();
+if (crt){
+	shader_reset();
+}

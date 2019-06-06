@@ -1,0 +1,17 @@
+maxWalkSpeed = 25;
+runAcceleration = 0.7;
+runDeceleration = 0.7;
+jumpHeight = -76;
+maxFallSpeed = 60;
+groundTouchCooldown = 0;
+facing = 1;
+playerFrame = 0;
+animFrame = 0;
+playerSprite = s_playerStand;
+hitBlock = false;
+gettingPowerup = 0;
+powerUpX = 0;
+powerUpY = 0;
+powerLevel = 0;
+SetupActive();
+SetupCollider();
